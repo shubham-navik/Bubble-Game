@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.main .container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.main .container  #text{
+    width: 100%;
+    /* height: 40px; */
+    /* background-color: red; */
+   color: black;
+   font-size: 50px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.main .container .gamename{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+.main .container .gamerule{
+    width: 100%;
+   
+}
+.main .container .gamerule ol{
+   margin-top: 20px;
+}
+.main .container .gamerule ol p{
+   font: 17px;
+   font-weight: 510;
+}
+
+.playbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.playbtn .btn{
+   background-color: rgb(223, 223, 122);
+   color: black;
+   font-weight: 600;
+   font-size: 15px;
+   margin: 20px 0;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 10px;
+   text-decoration: none;
+    
+}
+
+.playbtn .btn:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: 610;
+    /* font-size: 17px; */
+    background-color: rgb(221, 221, 73); 
+    cursor: pointer;
+    color: white;
+    
+}
